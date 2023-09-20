@@ -1,16 +1,14 @@
-h1{
-    
-    color: black;
-    text-align: center;
-}
+
 iframe{
     width:1000px;
     height:750px
 }
 body{
-    margin-left: 75px;
     background-color: whitesmoke;
-    
+
+}
+.margin{
+  margin-left: 30px;
 }
 .button {
     border: none;
@@ -20,7 +18,7 @@ body{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 2px 4px;
     transition-duration: 0.4s;
     cursor: pointer;
   }
@@ -28,6 +26,7 @@ body{
     background-color: white; 
     color: black; 
     border: 2px solid black;
+    width: 300px; margin: 0 auto;
   }
   
   .button1:hover {
@@ -41,4 +40,20 @@ body{
 .heading{
     text-decoration: underline;
     text-decoration: bold;
+}
+.wiki{
+  margin-left: 0px;
+}
+.container {
+  height: 200px;
+  position: relative;
+  border: none;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
